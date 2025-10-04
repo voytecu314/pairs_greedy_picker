@@ -1,11 +1,12 @@
-curl -X POST http://localhost:5010/api/session/create \
+curl -X POST https://pairs-greedy-picker.onrender.com/api/session/create \
   -H 'Content-Type: application/json' \
   -d '{
     "session_name": "Team Event",
     "users": [
-      {"username": "Alice", "password": "alice_secret123"},
-      {"username": "Bob", "password": "bob_pass456"},
-      {"username": "Charlie", "password": "charlie789"},
-      {"username": "Diana", "password": "diana_xyz"}
+      {"username": "Alice", "password": "123abc"},
+      {"username": "Bob", "password": "123abc"},
+      {"username": "Charlie", "password": "123abc"},
+      {"username": "Diana", "password": "123abc"},
+      {"username": "Michael", "password": "123abc"}
     ]
   }'
