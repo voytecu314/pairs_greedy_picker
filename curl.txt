@@ -1,0 +1,11 @@
+curl -X POST http://localhost:5010/api/session/create \
+  -H 'Content-Type: application/json' \
+  -d '{
+    "session_name": "Team Event",
+    "users": [
+      {"username": "Alice", "password": "alice_secret123"},
+      {"username": "Bob", "password": "bob_pass456"},
+      {"username": "Charlie", "password": "charlie789"},
+      {"username": "Diana", "password": "diana_xyz"}
+    ]
+  }'
